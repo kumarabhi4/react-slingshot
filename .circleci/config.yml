@@ -24,7 +24,7 @@ jobs:
     steps:
       - checkout
       - run:
-          command: npm run lint
+          command: npm run build
 
   test:
     docker:
