@@ -24,6 +24,7 @@ jobs:
     steps:
       - checkout
       - run:
+          command: npm install
           command: npm run build
 
   test:
